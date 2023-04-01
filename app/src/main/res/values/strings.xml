@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Totito</string>
+
+    <string name="un_jugador">1 player</string>
+    <string name="dos_jugadores">2 players</string>
+
+    <string name="facil">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="imposible">Insane</string>
+
+    <string name="gana_jugador1">PLAYER 1 WINS!</string>
+    <string name="gana_jugador2">PLAYER 2 WINS!</string>
+    <string name="empate">TIE!</string>
+    <string name="reset">Reiniciar</string>
+    <string name="user_win">Usuario</string>
+    <string name="cpu_win">CPU</string>
+</resources>

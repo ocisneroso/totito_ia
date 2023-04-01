@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- estilo del titulo -->
+    <style name="titulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/texto_titulo</item>
+        <item name="android:textColor">@color/colorTitulo</item>
+        <item name="android:layout_marginBottom">@dimen/margen_vertical</item>
+    </style>
+
+    <!-- estilo del boton -->
+    <style name="boton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/ancho_min_boton</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/alto_min_boton</item>
+        <item name="android:layout_margin">@dimen/margen_boton</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <item name="android:background">@drawable/boton</item>
+        <item name="android:onClick">jugar</item>
+    </style>
+
+    <!-- estilo del boton de radio -->
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/texto_radio</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+    </style>
+
+    <!-- estilo de la casilla -->
+    <style name="casilla_a1">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginBottom">@dimen/margen_casilla</item>
+        <item name="android:layout_marginRight">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_a2">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginLeft">@dimen/margen_casilla</item>
+        <item name="android:layout_marginRight">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_a3">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginLeft">@dimen/margen_casilla</item>
+        <item name="android:layout_marginBottom">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_b1">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginTop">@dimen/margen_casilla</item>
+        <item name="android:layout_marginBottom">@dimen/margen_casilla</item>
+        <item name="android:layout_marginRight">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_b2">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginTop">@dimen/margen_casilla</item>
+        <item name="android:layout_marginBottom">@dimen/margen_casilla</item>
+        <item name="android:layout_marginRight">@dimen/margen_casilla</item>
+        <item name="android:layout_marginLeft">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_b3">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginTop">@dimen/margen_casilla</item>
+        <item name="android:layout_marginBottom">@dimen/margen_casilla</item>
+        <item name="android:layout_marginLeft">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_c1">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginTop">@dimen/margen_casilla</item>
+        <item name="android:layout_marginRight">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_c2">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginTop">@dimen/margen_casilla</item>
+        <item name="android:layout_marginRight">@dimen/margen_casilla</item>
+        <item name="android:layout_marginLeft">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+
+    <style name="casilla_c3">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_marginTop">@dimen/margen_casilla</item>
+        <item name="android:layout_marginLeft">@dimen/margen_casilla</item>
+        <item name="android:onClick">tocarCasilla</item>
+    </style>
+</resources>
