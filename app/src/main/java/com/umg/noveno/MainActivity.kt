@@ -137,7 +137,6 @@ class MainActivity : AppCompatActivity() {
                                 mejor = it
                             }
                         }
-
                         var sKC = false
                         var mejorC = arrayListOf<Int>()
 
